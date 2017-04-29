@@ -1,4 +1,4 @@
-.ism-slider > ol, .ism-slider > ol > li, .ism-slider > ol > li > img { width: 100%; list-style: none; margin: 0; padding: 0;}
+.ism-slider > ol, .ism-slider > ol > li, .ism-slider > ol > li > img { width: 100%; list-style: none; margin: 0; padding: 0; }
 .ism-slider {
   overflow: hidden;
   position: relative;
@@ -9,8 +9,9 @@
   -ms-user-select: none;
   user-select: none;
   cursor: default;
-  z-index: 2;
   height: 400px;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.1);
   -webkit-animation: ism-fadein 3s;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
@@ -44,7 +45,7 @@
   bottom: 0;
   margin: 0 !important;
   padding: 0 !important;
-  background-color: #2e7d32;
+  background-color: #d5d5d5;
   text-align: center;
 }
 
@@ -431,7 +432,7 @@ p.ism-badge a.ism-link:hover {
     left: 5%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: #689F38;
 }
 
 #my-slider .ism-slide-0 .ism-caption-1 {
@@ -441,7 +442,7 @@ p.ism-badge a.ism-link:hover {
     left: 40%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color:  #689F38;
 }
 
 #my-slider .ism-slide-0 .ism-caption-2 {
@@ -451,7 +452,7 @@ p.ism-badge a.ism-link:hover {
     left: 60%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color: #689F38;
 }
 
 #my-slider .ism-slide-1 .ism-caption-0 {
@@ -461,7 +462,7 @@ p.ism-badge a.ism-link:hover {
     left: 5%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color:  #689F38;
 }
 
 #my-slider .ism-slide-1 .ism-caption-1 {
@@ -471,7 +472,7 @@ p.ism-badge a.ism-link:hover {
     left: 40%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color:  #689F38;
 }
 
 #my-slider .ism-slide-1 .ism-caption-2 {
@@ -481,7 +482,7 @@ p.ism-badge a.ism-link:hover {
     left: 60%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color:  #689F38;
 }
 
 #my-slider .ism-slide-2 .ism-caption-0 {
@@ -491,7 +492,7 @@ p.ism-badge a.ism-link:hover {
     left: 5%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color:  #689F38;
 }
 
 #my-slider .ism-slide-2 .ism-caption-1 {
@@ -501,7 +502,7 @@ p.ism-badge a.ism-link:hover {
     left: 40%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color:  #689F38;
 }
 
 #my-slider .ism-slide-2 .ism-caption-2 {
@@ -511,5 +512,5 @@ p.ism-badge a.ism-link:hover {
     left: 60%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #fff; background-color:  #689F38;
 }

@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <link style="txt/css" rel="Stylesheet" href="css/styles.css">
-        <link style="txt/css" rel="Stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.css">
-        <link rel="stylesheet" href="css/my-slider.css"/>
-        <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-incline' 'unsafe-eval' *; style-src 'self' 'unsafe-incline' *; img-src * data; 'unsafe-incline'">
-        <script src="js/ism-2.2.min.js"></script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+      <link style="txt/css" rel="Stylesheet" href="css/styles.css">
+      <link style="txt/css" rel="Stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.css">
+      <link rel="stylesheet" href="css/my-slider.css"/>
+      <link rel="stylesheet" href="css/w3.css" />
+      <script src="js/ism-2.2.min.js"></script>
         <title>Conoce Tabasco</title>
 
     </head>
     <body>
+      <!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none; z-index: 9999;" id="mySidebar">
+<button onclick="w3_close()" class="w3-bar-item w3-large"> &times;</button>
+<a href="lugares.html" class="w3-bar-item w3-button"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i> Conoce nuevos lugares</a>
+<a href="comidas.html" class="w3-bar-item w3-button"><i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>Comidas Tabasqueñas</a>
+<a href="fauna.html" class="w3-bar-item w3-button"><i class="fa fa-paw fa-2x" aria-hidden="true"></i>Animales de la región</a>
+<button type="button" class="botoncito"><i class="fa fa-sign-out fa-2x" aria-hidden="true" onclick="close()"></i></button>
+
+</div>
+<!-- -->
       <div class="header">
         <div class="padre-header">
           <ul class="padre">
-            <li class="menu"><i class="fa fa-bars fa-4x" aria-hidden="true"></i></li>
-            <li><img class="logito"src="img/loguito.png" alt=""></li>
-            <li><h1 class="titulo">Conoce Tabasco</h1></li>
+            <li class="menu"><i class="fa fa-bars fa-4x" aria-hidden="true" onclick="w3_open();"></i></li>
+                    <a href="index.html"><li><img class="logito"src="img/loguito.png" alt=""></li></a>
+            <li class="titulo">Conoce Tabasco</li>
           </ul>
         </div>
       </div>
