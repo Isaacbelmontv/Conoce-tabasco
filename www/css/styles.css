@@ -1,0 +1,113 @@
+*{
+margin: 0px;
+padding: 0px;
+list-style: none;
+font-family: Arial;
+font-style: none;
+}
+
+body{
+background: #CDDC39;
+font-family: Arial;
+}
+
+.header{
+width: 100%;
+height: 80px;
+background-color: #ffbd00;
+}
+
+.logo{
+width: 100%;
+height: 200px;
+margin-top: 20px;
+}
+
+.padre{
+display: flex;
+flex-direction: row;
+}
+
+.logito{
+width: 55px;
+border: 2px solid white;
+border-radius: 50px;
+margin-left: 20px;
+margin-top: 9px;
+padding: 4px;
+background-color: white;
+}
+
+.titulo{
+margin-top: 25px;
+margin-left: 10px;
+font-size: 25px;
+color: white
+}
+
+.menu{
+color: white;
+margin-left: 3px;
+}
+/*slider*/
+
+.fa {
+margin-right: 10px;
+margin-left: 10px;
+margin-top: 5px;
+color: black;
+}
+div.img {
+    margin: 5%;
+    background-color: #4CAF50;
+    float: left;
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+  margin-top: -15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.texto-descripcion{
+margin: 5px;
+text-align: justify;
+margin-bottom: 10px;
+}
+
+.footer{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.foot{
+width: 100%;
+height: auto;
+}
+
+.foot-texto{
+margin-left: 10px;
+margin-top: 15px;
+}
+
+.futer{
+background-color: #ffbd00;
+}
+
+.copy{
+margin-top: 10px;
+font-size: 10px;
+}
+
+hr{
+  border: 1px solid #CDDC39 ;
+}
