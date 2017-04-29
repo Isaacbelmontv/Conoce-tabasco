@@ -2,11 +2,15 @@
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Conoce Tabasco</name>
     <description>
-        A blank PhoneGap app.
+        App de turismo Tabasqueña
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+        Izibit
     </author>
     <content src="index.html" />
-    <access origin="*" />
+	    <access origin="*" />
+	<access origin="http://*google.com" />
+	<access origin="*" />
+	<access origin="https://maps.googleapis.com" />
+	<access origin="*.gstatic.com" />
 </widget>
