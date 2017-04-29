@@ -3,21 +3,23 @@ margin: 0px;
 padding: 0px;
 list-style: none;
 font-family: Arial;
+font-style: none;
 }
 
 body{
-background: #8cff8c;
+background: #FFF;
+font-family: Arial;
 }
 
 .header{
 width: 100%;
 height: 80px;
-background-color: #ffbd00;
+background-color: #689F38;
 }
 
 .logo{
 width: 100%;
-height: 200px;
+height: 250px;
 margin-top: 20px;
 }
 
@@ -39,11 +41,103 @@ background-color: white;
 .titulo{
 margin-top: 25px;
 margin-left: 10px;
-font-size: 30px;
-color: white
+font-size: 25px;
+color: #FFF;
 }
 
 .menu{
 color: white;
 margin-left: 3px;
+}
+/*slider*/
+
+.fa {
+margin-right: 10px;
+margin-left: 10px;
+margin-top: 5px;
+color: black;
+}
+div.img {
+    margin: 5%;
+    border: 3px solid #8BC34A;
+    float: left;
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div.img:hover {
+background-color: #689F38;
+transition-duration: 2s;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+  margin-top: -15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.texto-descripcion{
+margin: 5px;
+text-align: justify;
+margin-bottom: 10px;
+}
+
+.footer{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+color: #FFF;
+}
+
+.foot{
+width: 100%;
+height: auto;
+}
+
+.foot-texto{
+margin-left: 10px;
+margin-top: 0px;
+}
+
+.futer{
+background-color: #689F38;
+}
+
+.copy{
+margin-top: 10px;
+font-size: 10px;
+}
+
+hr{
+  border: 1px solid #CDDC39 ;
+}
+
+h1{
+color: #00BCD4;
+}
+
+.fa {
+color: white;
+}
+
+.botoncito{
+padding: 5px;
+background-color: #00796B;
+border: 0px;
+text-align: left;
+color: white;
+margin-left: 10px;
+border: 1px solid grey;
+
+}
+
+.botoncito:hover{
+background-color: #4CAF50;
+
 }

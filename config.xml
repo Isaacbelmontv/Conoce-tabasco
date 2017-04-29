@@ -4,11 +4,12 @@
     <description>
         App de turismo Tabasqueña
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
+    <author email="isaacbelmontv@gmail.co.com" href="gmail.com">
         Izibit
     </author>
     <content src="index.html" />
 	    <access origin="*" />
+			    <icon src="logo.png" />
 	<access origin="http://*google.com" />
 	<access origin="*" />
 	<access origin="https://maps.googleapis.com" />
